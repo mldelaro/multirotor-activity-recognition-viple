@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Motions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Motion>
+    <MotionId>0</MotionId>
+    <MotionName>neutral</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>1</MotionId>
+    <MotionName>false-flight</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>2</MotionId>
+    <MotionName>test</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>3</MotionId>
+    <MotionName>flight</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>4</MotionId>
+    <MotionName>stop</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>5</MotionId>
+    <MotionName>forward</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>6</MotionId>
+    <MotionName>left</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>7</MotionId>
+    <MotionName>right</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>8</MotionId>
+    <MotionName>backward</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>9</MotionId>
+    <MotionName>up</MotionName>
+  </Motion>
+  <Motion>
+    <MotionId>10</MotionId>
+    <MotionName>down</MotionName>
+  </Motion>
+</Motions>

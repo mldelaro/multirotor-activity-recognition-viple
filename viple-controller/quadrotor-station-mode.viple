@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/ StateFileSchema.xsd" VIPLE_Type="1">
+  <Version>3.8.3.1</Version>
+  <ProgrammingPanel Name="Main">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>19</ActivityNameInt>
+      <ActivityID>0</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>88.7777777777781</Left>
+        <Top>351.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">192.168.1.138</Value>
+        <Value Index="1">4444</Value>
+        <Value Index="2">WiFi</Value>
+        <Value Index="3">3000</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>1</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>5</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>244.518518518519</Left>
+        <Top>235.934814814815</Top>
+      </Location>
+      <Values>
+        <Value Index="0">22</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>2</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>6</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>244.962962962963</Left>
+        <Top>360.342222222222</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>3</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>7</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>245.777777777778</Left>
+        <Top>470.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">18</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>4</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>8</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>246.777777777778</Left>
+        <Top>581.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">3</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>5</ActivityID>
+      <PreviousActivities>
+        <ActivityID>1</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>439.777777777778</Left>
+        <Top>239.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.DirectionIntensity</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">5</Value>
+        <Value Index="3">forward</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>6</ActivityID>
+      <PreviousActivities>
+        <ActivityID>2</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>444.111111111111</Left>
+        <Top>363.12</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.DirectionIntensity</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">6</Value>
+        <Value Index="3">left</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>7</ActivityID>
+      <PreviousActivities>
+        <ActivityID>3</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>444.111111111111</Left>
+        <Top>469.786666666666</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.DirectionIntensity</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">8</Value>
+        <Value Index="3">backward</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>8</ActivityID>
+      <PreviousActivities>
+        <ActivityID>4</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>442.777777777778</Left>
+        <Top>586.786666666666</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.DirectionIntensity</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">7</Value>
+        <Value Index="3">right</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>9</ActivityID>
+      <PreviousActivities>
+        <ActivityID>10</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>4</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>684.777777777778</Left>
+        <Top>364.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">10.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">1</Value>
+        <Value Index="3">false-flight</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>10</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>9</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>4</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>677.777777777778</Left>
+        <Top>241.913333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">59</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>11</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>12</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>5</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>693.777777777778</Left>
+        <Top>473.913333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">40</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>12</ActivityID>
+      <PreviousActivities>
+        <ActivityID>11</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>5</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>699.777777777778</Left>
+        <Top>598.913333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">4</Value>
+        <Value Index="3">stop</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>29</ActivityNameInt>
+      <ActivityID>13</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>14</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>74.7777777777781</Left>
+        <Top>689.913333333333</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>14</ActivityID>
+      <PreviousActivities>
+        <ActivityID>13</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>234.777777777778</Left>
+        <Top>691.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">0</Value>
+        <Value Index="3">neutral</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>15</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>16</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>7</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>452.777777777778</Left>
+        <Top>710.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">41</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>16</ActivityID>
+      <PreviousActivities>
+        <ActivityID>15</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>7</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>690.777777777778</Left>
+        <Top>725.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">3</Value>
+        <Value Index="3">flight</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>17</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>18</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>8</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>451.777777777778</Left>
+        <Top>829.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">42</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>18</ActivityID>
+      <PreviousActivities>
+        <ActivityID>17</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>8</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>701.777777777778</Left>
+        <Top>832.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">2</Value>
+        <Value Index="3">test</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>19</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>20</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>9</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1003.77777777778</Left>
+        <Top>341.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">19</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>20</ActivityID>
+      <PreviousActivities>
+        <ActivityID>19</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>9</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1240.11111111111</Left>
+        <Top>338.786666666666</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.AltitudeIntensity</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">9</Value>
+        <Value Index="3">up</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>21</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>22</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>10</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>981.703703703704</Left>
+        <Top>479.675555555555</Top>
+      </Location>
+      <Values>
+        <Value Index="0">6</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>22</ActivityID>
+      <PreviousActivities>
+        <ActivityID>21</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>10</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1218.44444444445</Left>
+        <Top>483.786666666666</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.AltitudeIntensity</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">10</Value>
+        <Value Index="3">down</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>23</ActivityID>
+      <PreviousActivities>
+        <ActivityID>24</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>26</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>11</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>12</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>949.77777777778</Left>
+        <Top>176.453333333333</Top>
+      </Location>
+      <Values>
+        <Value>GroupNameInput</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>24</ActivityID>
+      <PreviousActivities>
+        <ActivityID>28</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>23</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>13</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>11</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1015.77777777778</Left>
+        <Top>37.453333333333</Top>
+      </Location>
+      <Values>
+        <Value>held-with-rotor-control@192.168.1.138:8080</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>25</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1430.77777777778</Left>
+        <Top>361.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">0</Value>
+        <Value Index="3">neutral</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>26</ActivityID>
+      <PreviousActivities>
+        <ActivityID>23</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>27</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>12</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>14</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1136.77777777778</Left>
+        <Top>175.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">PostGroupName</Value>
+        <Value Index="1">using System;
+using System.Net.Http;
+
+[Serializable]
+public class PostGroupName : CodeUtilities.CodeBase
+{
+	private static readonly HttpClient client = new HttpClient();
+	
+    public PostGroupName()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Obtain the value of the input to this activity.
+        // The type of this value will depend on what input you pass to this activity.
+        string myInput = (string)Input;
+        
+        string hostName = myInput.Split('@')[1];
+        string groupName = myInput.Split('@')[0];
+        
+        // You can use the PrintLine method to print strings to the run window
+        // during runtime.
+        PrintLine("Setting Group name [" + groupName + "]");
+        PrintLine("Within Host [" + hostName + "]");
+        
+        var response = client.PostAsync("http://" + hostName + "/group/name/" + groupName, null).Result;
+        
+        // You can pass output in a similar way.
+        Output = response.Content.ReadAsStringAsync().Result;
+        
+        PrintLine("Made POST to host...");
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">System.Configuration.dll</Value>
+        <Value Index="5">System.Core.dll</Value>
+        <Value Index="6">System.dll</Value>
+        <Value Index="7">System.Net.Http.dll</Value>
+        <Value Index="8">System.Xaml.dll</Value>
+        <Value Index="9">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>27</ActivityID>
+      <PreviousActivities>
+        <ActivityID>26</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>14</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1285.77777777778</Left>
+        <Top>174.453333333333</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>28</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>24</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>13</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>851.777777777778</Left>
+        <Top>40.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">20</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>45</ActivityNameInt>
+      <ActivityID>29</ActivityID>
+      <PreviousActivities>
+        <ActivityID>30</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>15</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1216.18213613129</Left>
+        <Top>624.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">0.0</Value>
+        <Value Index="1">Robot/IoT Controller 0</Value>
+        <Value Index="2">11</Value>
+        <Value Index="3">sig-stop</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>30</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>29</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>15</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>980.182136131289</Left>
+        <Top>622.453333333333</Top>
+      </Location>
+      <Values>
+        <Value Index="0">12</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>31</ActivityID>
+      <PreviousActivities>
+        <ActivityID>32</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>16</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>212.592592592593</Left>
+        <Top>91.0962962962962</Top>
+      </Location>
+      <Values>
+        <Value>DirectionIntensity</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>32</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>31</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>16</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>35.0370370370371</Left>
+        <Top>92.5777777777777</Top>
+      </Location>
+      <Values>
+        <Value>25</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>33</ActivityID>
+      <PreviousActivities>
+        <ActivityID>34</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>17</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>632.592592592593</Left>
+        <Top>91.0962962962963</Top>
+      </Location>
+      <Values>
+        <Value>AltitudeIntensity</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>34</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>33</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>17</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>446.666666666666</Left>
+        <Top>95.5407407407407</Top>
+      </Location>
+      <Values>
+        <Value>0.2</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <Variables>
+    <Variable>
+      <VariableName>GroupNameInput</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>DirectionIntensity</VariableName>
+      <VariableType>System.Double</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>AltitudeIntensity</VariableName>
+      <VariableType>System.Double</VariableType>
+    </Variable>
+  </Variables>
+  <UsedCustomActivityNames />
+</Program>
